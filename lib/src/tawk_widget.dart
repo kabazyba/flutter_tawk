@@ -57,7 +57,7 @@ class _TawkState extends State<Tawk> {
       ''';
     }
 
-    _controller!.evaluateJavascript(javascriptString);
+    _controller!.runJavascript(javascriptString);
   }
 
   @override
